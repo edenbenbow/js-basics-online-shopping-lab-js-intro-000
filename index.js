@@ -59,7 +59,7 @@ function placeOrder(cardNumber) {
   }
 
 if (cardNumber.length !== 8) {
-  console.log ("Sorry, we don\'t have a credit card on file for you.");
+  return ("Sorry, we don\'t have a credit card on file for you.");
 }
 
 }
