@@ -54,6 +54,7 @@ for (var i = 0; i < cart.length; i++) {
 
 function placeOrder(cardNumber) {
   for (var i = 0; i < cart.length; i++) {
+    if (cardNumber()) {}
   }
 
 console.log ("Sorry, we don't have a credit card on file for you.")
