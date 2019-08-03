@@ -53,7 +53,6 @@ for (var i = 0; i < cart.length; i++) {
 }
 
 function placeOrder(cardNumber) {
-  if {cardNumber === 0} (return "Sorry, we don\'t have a credit card on file for you.")
   for (var i = 0; i < cart.length; i++) {
     if (placeOrder.cardNumber()) {cart === 0}
     return (`Your total cost is ${total}, which will be charged to the card ${placeOrder}.`)
