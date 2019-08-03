@@ -54,7 +54,7 @@ for (var i = 0; i < cart.length; i++) {
 
 function placeOrder(cardNumber) {
   for (var i = 0; i < cart.length; i++) {
-    if (placeOrder.cardNumber()) {cart === 0};
+    if (cardNumber.length === 8) {cart === 0};
     return (`Your total cost is ${total}, which will be charged to the card ${placeOrder}.`)
   }
 }
